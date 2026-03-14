@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv*/
+venv_py310/
+env/
+.env
+
+# Model files (too large for GitHub)
+*.h5
+*.pkl
+
+# Training & dev files (keep locally, not on GitHub)
+backend/train_model.py
+backend/plot.py
+backend/fix_model.py
+backend/resave_model.py
+backend/plant_disease_model.keras
+
+# Plant test images (keep locally, not on GitHub)
+backend/plant.jpg
+backend/plant1.jpg
+backend/plant2.jpg
+backend/plant3.jpg
+backend/plant4.jpg
+backend/plant6.jpg
+backend/plant7.jpg
+
+# Dataset (too large for GitHub)
+backend/plant_disease_dataset/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/node_modules/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+-F
