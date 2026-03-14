@@ -5,7 +5,7 @@ from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import tf_keras as keras
+import tf_keras as keras # type: ignore
 from PIL import Image
 from dotenv import load_dotenv
 import numpy as np
